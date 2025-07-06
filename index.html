@@ -193,6 +193,12 @@
 </head>
 <body>
 
+<title>Add to Cart - Full Menu</title>
+</head>
+<body>
+  
+
+  
   <h2 class="section-title">🔥 Featured Pizzas</h2>
 
   <div class="pizza-container">
@@ -526,18 +532,23 @@
   </div>
 </footer>
 
-<script>
-  let cart = [];
-  let total = 0;
 
-  function addToCart(item, price) {
-    cart.push({ item, price });
-    total += price;
-    alert(item + " added to cart. Total: ₹" + total);
-    
-    // Optional: Update cart display
-    document.getElementById("cart").innerText = "Cart Total: ₹" + total;
-  }
-</script>
-                                 
-                                 
+<h2>🛒 Cart</h2>
+  <ul id="cart-items"></ul>
+  <h3>Total: ₹<span id="total">0</span></h3>
+
+  <script>
+    let total = 0;
+    const cartItems = document.getElementById("cart-items");
+    const totalAmount = document.getElementById("total");
+
+    function addToCart(item, price) {
+      const li = document.createElement("li");
+      li.textContent = `${item} - ₹${price}`;
+      cartItems.appendChild(li);
+      total += price;
+      totalAmount.textContent = total;
+    }
+  </script>
+
+</body
