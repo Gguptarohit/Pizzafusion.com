@@ -21,7 +21,7 @@ body {
   z-index: 999;
 }
 
-.cont{
+Header.contr {
   max-width: 1200px;
   margin: auto;
   padding: 0 1rem;
@@ -100,7 +100,7 @@ body {
 
 /* 🍕 Hero Section */
 .hero {
-  background-image: url('https://images.app.goo.gl/k3AMtqvp6cVkm9BA7'); /* Replace with your image */
+  background-image: url('herosection.jpg'); /* Replace with your image */
   background-size: cover;
   background-position: center;
   height: 80vh;
@@ -766,4 +766,3 @@ body {
   color: #ff5722;
   transform: scale(1.2);
 }
-          
