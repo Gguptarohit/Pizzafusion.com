@@ -100,7 +100,7 @@ body {
 
 /* 🍕 Hero Section */
 .hero {
-  background-image: url('herosection.jpg'); /* Replace with your image */
+  background-image: url('herosection.png'); /* Replace with your image */
   background-size: cover;
   background-position: center;
   height: 80vh;
