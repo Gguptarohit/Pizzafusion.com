@@ -55,12 +55,7 @@ Header.contr {
   object-fit: cover;
 }
 
-/* Style the logo text */
-.logo-text {
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #ff4d00;
-}
+
 
 /* 🔗 Navigation Styling */
 .nav-links ul {
