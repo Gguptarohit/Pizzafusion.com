@@ -36,6 +36,16 @@ Header.contr {
   font-weight: bold;
   color: #ff4d00;
 }
+.pizza-image {
+  max-height: 40px;
+  width: auto;
+  margin-left: 10px;
+}
+.logo-wrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
 
 /* 🔗 Navigation Styling */
 .nav-links ul {
