@@ -44,7 +44,22 @@ Header.contr {
 .logo-wrap {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
+}
+
+/* Make logo image circular */
+.circle-logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Style the logo text */
+.logo-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ff4d00;
 }
 
 /* 🔗 Navigation Styling */
