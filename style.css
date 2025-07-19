@@ -37,17 +37,7 @@ height: 50px;
 
 border-radius:50%;
   }
-.circle-logo {
-  width: 10px;         /* Smaller width */
-  height: 10px;        /* Smaller height */
-  border-radius: 20%;  /* Makes it circular */
-  object-fit: cover;   /* Keeps image inside the circle */
-}
-.logo-wrap {
-  display: flex;
-  align-items: center;
-  gap: 3px; /* smaller space between image and "Pizza fusion" */
-}
+
 
 /* 🔗 Navigation Styling */
 .nav-links ul {
