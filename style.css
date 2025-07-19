@@ -31,30 +31,12 @@ Header.contr {
 }
 
 /* 🍕 Logo Styling */
-.logo {
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #ff4d00;
-}
-.pizza-image {
-  max-height: 40px;
-  width: auto;
-  margin-left: 10px;
-}
-.logo-wrap {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
+.logo img {
 
-/* Make logo image circular */
-.circle-logo {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  object-fit: cover;
-}
+height: 50px;
 
+border-radius:50%;
+  }
 
 
 /* 🔗 Navigation Styling */
